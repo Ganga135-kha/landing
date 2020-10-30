@@ -1,0 +1,122 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+#container{
+	height: 100vh;
+	width: 100%;
+	/*background-color: pink;*/
+	display: flex;
+	flex-direction: column;
+	background-color: #b5a1a542;
+}
+
+#nav{
+	height: 60px;
+	width: 100%;
+	/*background-color: blue;*/
+}
+
+ul li{
+	display: inline-block;
+	padding: 17px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #030731d1;
+}
+ul li:hover{
+	color: blue;
+	transition: background-color 1s;
+}
+#nav-list{
+	height: 60px;
+	width: 40%;
+	/*background-color: red;*/
+	margin-left: 60%;
+}
+#heading{
+	height: 450px;
+	width: 100%;
+	/*background-color: yellow;*/
+	display: flex;
+	flex-direction: row;
+}
+#img{
+	height: 450px;
+	width: 20%;
+	/*background-color: purple;*/
+}
+#head{
+	height: 420px;
+	width: 80%;
+	/*background-color: red;*/
+	display: flex;
+	flex-direction: row;
+}
+#head-ing{
+	height: 350px;
+	width: 40%;
+	/*background-color: pink;*/
+	margin-top: 70px;
+	display: flex;
+	flex-direction: column;
+}
+#head-head{
+	height: 80px;
+	width: 100%;
+	/*background-color: yellow;*/
+	font-family: 'Lobster', cursive;
+	font-size: 3em;
+	color: #030731d1;
+}
+#description{
+	height: 280px;
+	width: 100%;
+	/*background-color: blue;*/
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+	color: #030731d1;
+}
+/*#but1{
+	height: 30px;
+	width: 5%;
+	background-color: pink;
+	margin-top: 30px;
+}*/
+/*#head-img{
+	height: 350px;
+	width: 50%;
+	margin-left: 10px;
+	background-color: lightblue;
+	margin-top: 70px;
+}*/
+/*#des{
+	height: 340px;
+	width: 100%;
+	background-color: green;
+}*/
+/*#button{
+	height: 90px;
+	width: 50%;
+	background-color: blue;
+	margin-left: 35%;
+	display: flex;
+	flex-direction: row;
+}*/
+
+#copy{
+	height: 30px;
+	/*background-color: red;*/
+}
+#copy a{
+	color: #110f2d;
+}
+#but{
+	height: 90px;
+	width: 40%;
+	display: flex;
+	flex-direction: row;
+	margin-left: 35%;
+}
